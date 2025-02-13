@@ -88,6 +88,8 @@ Data: "No Data Found."
 Output:
 "You have no recorded expenses for January 2025."
 
+
+**Include the total amount which is the sum of the breakdown**
 """
 
 def GenerateNaturalAnswer(Data,query,SQL):
