@@ -33,4 +33,9 @@
 | :-------- | :------- | :------------------------- |
 | `body` | `string` |  Singular CRUD API for expense tracking via whatsapp |
 
+## Future changes
+1. Securing API, open currently to test and ship fast.
+2. Better text to SQL models.
+3. Semantic search on db rows, getting higher accuracy of fetching data. example coffee and kapi are essentially the same thing.
+
 
