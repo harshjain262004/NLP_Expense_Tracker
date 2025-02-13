@@ -9,6 +9,7 @@ cursor = connection.cursor()
 
 def ExecuteSQL(SQL):
     sql = SQL.lower()
+    print(sql)
     if "insert" in sql:
         cursor.execute(SQL)
         connection.commit()
