@@ -26,6 +26,13 @@
 #### Get Response Chat
 
 ```http
+  GET /
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| None | None | 302 code to redirect to this repo |
+
+```http
   POST /whatsapp
 ```
 
@@ -37,5 +44,5 @@
 1. Securing API, open currently to test and ship fast.
 2. Better text to SQL models.
 3. Semantic search on db rows, getting higher accuracy of fetching data. example coffee and kapi are essentially the same thing.
-
+4. Backend is inactive, redirects / to the repo, only /whatsapp is active currently.
 
