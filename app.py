@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, redirect
 from twilio.twiml.messaging_response import MessagingResponse
 import os
 from dotenv import load_dotenv
@@ -7,6 +7,10 @@ from genAns import *
 from db import *
 
 app = Flask(__name__)
+
+@app.route('/')
+def redirectToRepo():
+    return redirect("https://github.com/harshjain262004/NLP_Expense_Tracker", code=302)
 
 # Define a route to handle incoming requests
 @app.route('/whatsapp', methods=['POST'])
