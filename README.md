@@ -1,4 +1,4 @@
-## Idea Submission to Trufides AI
+## NLP processor based expense tracker
 1. Add a expense of rs 250 for ola I took to work
    Processes Query and adds into Db.
    
